@@ -90,7 +90,7 @@
                 "enableSoftDelete": true,
                 "softDeleteRetentionInDays": 90,
                 "enableRbacAuthorization": true,
-                "enablePurgeProtection": false,
+                "enablePurgeProtection": true,
                 "vaultUri": "[concat(concat('https://',parameters('vaults_CoC_Production_keyvault_name')),'.vault.azure.net/')]",
                 "provisioningState": "Succeeded",
                 "publicNetworkAccess": "Enabled"
